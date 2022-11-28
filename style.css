@@ -23,3 +23,16 @@ nav {
   --burger-lines: rgb(0, 0, 0);
   --burger-border: #7f7b82;
 }
+
+a {
+  margin: 10px 5px 10px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+li a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(83, 83, 83);
+}
