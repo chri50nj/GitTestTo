@@ -1,1 +1,25 @@
-
+header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #fc4a4a;
+  border-bottom: 1px solid #7f7b82;
+  align-items: center;
+  font-size: 1.1rem;
+  padding-right: 30px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 30px;
+  overflow-x: auto;
+}
+nav {
+  --less-than: 600;
+  --burger-lines: rgb(0, 0, 0);
+  --burger-border: #7f7b82;
+}
